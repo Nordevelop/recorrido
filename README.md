@@ -23,3 +23,11 @@ Practica Este Problema
 
 Implementación recursiva
 Como podemos ver, antes de procesar cualquier nodo, primero se procesa el subárbol izquierdo, seguido del subárbol derecho, y finalmente se procesa el nodo. Estas operaciones se pueden definir recursivamente para cada nodo. La implementación recursiva se conoce como búsqueda en profundidad (DFS) , ya que el árbol de búsqueda se profundiza tanto como sea posible en cada niño antes de pasar al siguiente hermano.
+
+                                                      Implementacion
+                                                      
+ Para recorrer un árbol en programación, se pueden utilizar tres algoritmos diferentes: recorrido en preorden, recorrido en inorden y recorrido en postorden. Cada uno de estos algoritmos recorre el árbol de forma diferente, dependiendo de cuándo se procesan los nodos y sus hijos.
+
+El recorrido en preorden consiste en procesar primero el nodo raíz, luego recorrer el subárbol izquierdo en preorden y finalmente el subárbol derecho en preorden. Esto se puede implementar mire la implementacion en C++:
+
+
